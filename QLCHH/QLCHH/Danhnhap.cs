@@ -19,7 +19,7 @@ namespace QLCHH
 
         private void Danhnhap_Load(object sender, EventArgs e)
         {
-            //
+            ////
         }
     }
 }
