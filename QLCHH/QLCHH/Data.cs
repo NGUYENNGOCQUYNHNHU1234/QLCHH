@@ -26,7 +26,7 @@ namespace QLCHH
         {
             cn.Open();
             SqlCommand cmd = new SqlCommand(sql, cn);
-            cmd.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();//
             cn.Close();
         }
     }
