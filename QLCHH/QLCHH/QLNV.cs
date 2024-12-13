@@ -16,5 +16,10 @@ namespace QLCHH
         {
             InitializeComponent();
         }
+
+        private void QLNV_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
