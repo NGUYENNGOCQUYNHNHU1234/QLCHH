@@ -20,6 +20,7 @@ namespace QLCHH
         private void QLNV_Load(object sender, EventArgs e)
         {
                 //khong lam bai duockkjj
+                //qq
 
             //hhqgedj
 
