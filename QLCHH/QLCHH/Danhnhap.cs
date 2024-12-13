@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace QLCHH
 {
-    public partial class QLNV : Form
+    public partial class Danhnhap : Form
     {
-        public QLNV()
+        public Danhnhap()
         {
             InitializeComponent();
         }
 
-        private void QLNV_Load(object sender, EventArgs e)
+        private void Danhnhap_Load(object sender, EventArgs e)
         {
-            //THAI ỢT
-
+            //
         }
     }
 }
