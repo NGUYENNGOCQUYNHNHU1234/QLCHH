@@ -10,6 +10,7 @@ namespace QLCHH
 {
     class Data
     {
+        //fdtrs
         SqlConnection cn;
         public Data(string srvname, string dbname)
         {
