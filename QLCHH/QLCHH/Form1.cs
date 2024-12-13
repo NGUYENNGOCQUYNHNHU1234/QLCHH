@@ -19,7 +19,7 @@ namespace QLCHH
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //xoa duoc chua
+            //tiep tuc duoc chua duoc chua
         }
     }
 }
