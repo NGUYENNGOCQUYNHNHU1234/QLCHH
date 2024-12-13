@@ -19,7 +19,9 @@ namespace QLCHH
 
         private void QLNV_Load(object sender, EventArgs e)
         {
-            //THAI ỢT
+                //khong lam bai duockkjj
+
+            //hhqgedj
 
         }
     }
