@@ -16,5 +16,10 @@ namespace QLCHH
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //tiep tuc duoc chua duoc chua
+        }
     }
 }
