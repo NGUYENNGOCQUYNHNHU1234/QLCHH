@@ -13,6 +13,7 @@ namespace QLCHH
 {
     /// <summary>
     /// //Oooooo
+    /// //12345
     /// </summary>
     public partial class QLH : Form
     {
