@@ -10,7 +10,8 @@ namespace QLCHH
 {
     class Ketnoi
     {
-        SqlConnection cn = new SqlConnection(@"Data Source=Admin-PC\NHU022101052;Initial Catalog=QUANLYCUAHANGBANHOA;Integrated Security=True");
+        SqlConnection cn = new SqlConnection(@"Data Source=QuynhChuong\SQLEXPRESS;Initial Catalog=QUANLYCUAHANGBANHOA;Integrated Security=True");
+        //thay đổi tên máy trước khi chạy 
         public DataTable laydl(string sql)
         {
             DataTable dt = new DataTable();
@@ -22,7 +23,7 @@ namespace QLCHH
         {
             cn.Open();
             SqlCommand cmd = new SqlCommand(sql, cn);
-            cmd.ExecuteNonQuery();//
+            cmd.ExecuteNonQuery();
             cn.Close();
         }
     }
