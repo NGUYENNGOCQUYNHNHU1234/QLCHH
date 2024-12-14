@@ -8,9 +8,14 @@ using System.Data;
 
 namespace QLCHH
 {
-    class Ketnoi
+    class Data
     {
-        SqlConnection cn = new SqlConnection(@"Data Source=Admin-PC\NHU022101052;Initial Catalog=QUANLYCUAHANGBANHOA;Integrated Security=True");
+        //fdtrs
+        SqlConnection cn;
+        public Data(string srvname, string dbname)
+        {
+            cn = new SqlConnection(@"Data Source=" + srvname + ";Initial Catalog=" + dbname + ";Integrated Security=True");
+        }
         public DataTable laydl(string sql)
         {
             DataTable dt = new DataTable();
