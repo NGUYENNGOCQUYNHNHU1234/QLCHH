@@ -11,6 +11,9 @@ using System.IO;
 
 namespace QLCHH
 {
+    /// <summary>
+    /// //Oooooo
+    /// </summary>
     public partial class QLH : Form
     {
         public QLH()
