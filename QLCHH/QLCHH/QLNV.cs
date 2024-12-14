@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QLCHH
@@ -145,11 +139,25 @@ namespace QLCHH
             // Xử lý sự kiện khi RadioButton2 được chọn
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Xử lý sự kiện khi Form QLNV được load
+            LoadData(); // Có thể gọi LoadData() để tải dữ liệu ban đầu
+        }
         private void QLNV_Load(object sender, EventArgs e)
         {
-            // Xử lý sự kiện khi form được tải (nếu cần)
-            LoadData(); // Gọi phương thức LoadData() để tải dữ liệu vào DataGridView
+            // Gọi hàm LoadData để nạp dữ liệu vào DataGridView khi Form được load
+            LoadData();
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
