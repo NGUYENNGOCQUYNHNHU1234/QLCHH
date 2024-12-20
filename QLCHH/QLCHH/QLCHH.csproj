@@ -46,10 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Danhnhap.cs" />
-    <Compile Include="Danhnhap.Designer.cs">
-      <DependentUpon>Danhnhap.cs</DependentUpon>
-    </Compile>
     <Compile Include="Ketnoi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,15 +73,6 @@
     <Compile Include="QLNV.Designer.cs">
       <DependentUpon>QLNV.cs</DependentUpon>
     </Compile>
-    <Compile Include="Taikhoan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Taikhoan.Designer.cs">
-      <DependentUpon>Taikhoan.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Danhnhap.resx">
-      <DependentUpon>Danhnhap.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -106,9 +93,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QLNV.resx">
       <DependentUpon>QLNV.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Taikhoan.resx">
-      <DependentUpon>Taikhoan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
