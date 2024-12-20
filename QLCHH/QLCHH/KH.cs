@@ -62,7 +62,7 @@ namespace QLCHH
                     MessageBox.Show("Mã khách hàng không tồn tại.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-
+                //
                 // Tạo câu lệnh SQL để thêm đơn hàng
                 string sql = $"INSERT INTO QLDH (MaDonHang, MaKhachHang, NgayDatHang, MaTrangThai) " +
                              $"VALUES (N'{maDonHang}', N'{maKhachHang}', '{ngayDatHang}', N'{maTrangThai}')";
