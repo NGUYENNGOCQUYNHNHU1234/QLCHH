@@ -10,7 +10,7 @@ namespace QLCHH
 {
     class Ketnoi
     {
-        SqlConnection cn = new SqlConnection(@"Data Source=QuynhChuong\SQLEXPRESS;Initial Catalog=QUANLYCUAHANGBANHOA;Integrated Security=True");
+        SqlConnection cn = new SqlConnection(@"Data Source=MSI\SQLEXPRESS2012;Initial Catalog=QUANLYCUAHANGBANHOA;Integrated Security=True");
         //thay đổi tên máy trước khi chạy 
         public DataTable laydl(string sql)
         {

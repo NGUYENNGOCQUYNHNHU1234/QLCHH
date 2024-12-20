@@ -46,8 +46,8 @@ namespace QLCHH
             txtemail.Clear();
 
             Ketnoi kn = new Ketnoi();
-            string masach = kn.laydl("SELECT TOP 1 Makhachhang FROM QLKH ORDER BY Makhachhang DESC").Rows[0]["Makhachhang"].ToString();
-            txtmakh.Text = "KH" + (int.Parse(masach.Substring(2)) + 1).ToString("D3");
+            string makh = kn.laydl("SELECT TOP 1 Makhachhang FROM QLKH ORDER BY Makhachhang DESC").Rows[0]["Makhachhang"].ToString();
+            txtmakh.Text = "KH" + (int.Parse(makh.Substring(2)) + 1).ToString("D3");
         }
 
         private void btcapnhat_Click(object sender, EventArgs e)
