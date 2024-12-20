@@ -125,17 +125,17 @@ namespace QLCHH
             }
             if (rdmadh.Checked)
             {
-                sql = "SELECT * FROM QLDH WHERE MaDonHang LIKE '%" + txttimkiem.Text + "%'"; 
+                sql = "SELECT * FROM QLDH WHERE MaDonHang LIKE '%" + txttimkiem.Text + "%'";
             }
             else if (rdmakh.Checked)
             {
-                sql = "SELECT * FROM QLDH WHERE MaKhachHang LIKE '%" + txttimkiem.Text + "%'"; 
+                sql = "SELECT * FROM QLDH WHERE MaKhachHang LIKE '%" + txttimkiem.Text + "%'";
             }
             else
             {
                 MessageBox.Show("Vui lòng chọn loại tìm kiếm (Mã đơn hàng hoặc Mã khách hàng)", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-            }//
+            }
 
             DataTable db = kn.laydl(sql);
             dtgvdanhsach.DataSource = db;
