@@ -16,7 +16,7 @@ namespace QLCHH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DONGBO());
+            Application.Run(new QLH());
         }
     }
 }
